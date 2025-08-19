@@ -37,7 +37,7 @@ const AdobePdfViewer = forwardRef(
         if (!window.AdobeDC) return;
 
         adobeDCViewInstanceRef.current = new window.AdobeDC.View({
-          clientId: "38c90a9c49bd4c5b8e96702b40b5ca75",
+          clientId: "\\ your adobe client id",
           divId: "adobe-dc-view",
           downloadWithCredentials: false,
         });
