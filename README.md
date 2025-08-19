@@ -2,7 +2,11 @@
 
 Welcome to **DocuMind-AI**, a hackathon-born project designed to revolutionize the way you interact with your personal document library. No more losing your place or struggling to connect ideas across files—pick up exactly where you left off with a seamless, intelligent reading experience. This repository can also serve as a fallback if you’re not using the Docker image.
 
-***imp : the keys are hardcoded so that the app runs fine***
+***imp : the keys need to be hardcoded in certain files for the app to run***
+Those files are:
+- client/src/components/RightSideBar.jsx (gemini api key)
+- client/src/components/AdobePdfViewer.jsx (client id adobe) - can be generated from https://acrobatservices.adobe.com/dc-integration-creation-app-cdn/main.html?api=pdf-embed-api ***keep Application Domain as localhost***
+- server/routers/tts.py (azure key&region and gemini api key)
 
 ---
 
