@@ -9,9 +9,9 @@ import requests
 from backends.tts.generate_audio import azure_tts
 
 # Azure & Gemini keys
-os.environ["AZURE_REGION"] = "centralindia"
-os.environ["AZURE_KEY"] = "EMZ41PCfxu9WwsX3d7KgS7Wouen1gFv9hvPqr6wyTXawoVMNA8cEJQQJ99BHACGhslBXJ3w3AAAYACOGlhbB"
-os.environ['GEMINI_API_KEY'] = "AIzaSyCYjerPTOhkooTo920mDV5P2MZEp8xkVrk"
+os.environ["AZURE_REGION"] = "centralindia" \\ set as per your key region
+os.environ["AZURE_KEY"] = "azure key"
+os.environ['GEMINI_API_KEY'] = "\\ your gemini api key"
 
 router = APIRouter(prefix="/v1/audio", tags=["TTS"])
 
