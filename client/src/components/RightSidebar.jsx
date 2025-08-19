@@ -81,7 +81,7 @@ Respond strictly as JSON.
             {
               headers: {
                 "Content-Type": "application/json",
-                "X-goog-api-key": "AIzaSyBYSORF7RVC0EifEmRJYbYdn7cPseD2wRU"
+                "X-goog-api-key": "\\ your api key"
               }
             }
           );
