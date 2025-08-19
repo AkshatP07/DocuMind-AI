@@ -1,6 +1,6 @@
 # DocuMind-AI
 
-Welcome to **DocuMind-AI**, a hackathon-born project designed to revolutionize the way you interact with your personal document library. No more losing your place or struggling to connect ideas across files—pick up exactly where you left off with a seamless, intelligent reading experience. This repository can also serve as a fallback if you’re not using the Docker image.
+Welcome to **DocuMind-AI**, a hackathon-born project designed to revolutionize the way you interact with your personal document library. No more losing your place or struggling to connect ideas across files—pick up exactly where you left off with a seamless, intelligent reading experience. ***This repository can also serve as a fallback if you’re not using the Docker image***.
 
 ***imp : the keys need to be hardcoded in certain files for the app to run***
 Those files are:
