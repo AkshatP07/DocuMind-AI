@@ -7,7 +7,8 @@ Welcome to **DocuMind-AI**, a hackathon-born project designed to revolutionize t
 ***imp : the keys need to be hardcoded in certain files for the app to run***
 Those files are:
 - client/src/components/RightSideBar.jsx (gemini api key)
-- client/src/components/AdobePdfViewer.jsx (client id adobe) - can be generated from https://acrobatservices.adobe.com/dc-integration-creation-app-cdn/main.html?api=pdf-embed-api ***keep Application Domain as localhost***
+- client/src/components/AdobePdfViewer.jsx (client id adobe) - 38c90a9c49bd4c5b8e96702b40b5ca75
+also can be generated from https://acrobatservices.adobe.com/dc-integration-creation-app-cdn/main.html?api=pdf-embed-api ***keep Application Domain as localhost***
 - server/routers/tts.py (azure key&region and gemini api key)
 
 ---
