@@ -52,6 +52,7 @@ The backend is built with Python and FastAPI. Using a virtual environment is rec
 
 1. **Create and activate a virtual environment:**
    ```bash
+   Remove-Item -Recurse -Force .\venv
    python -m venv venv
    venv\Scripts\Activate.ps1  # Windows PowerShell
    # OR
